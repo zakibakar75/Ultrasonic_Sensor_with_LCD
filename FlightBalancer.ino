@@ -45,8 +45,9 @@ void loop()
         
     while(distance >= 50)
     {
+        //lcd.clear();
         lcd.setCursor(0,0); //Defining positon to write from first row,first column .
-        lcd.print("Still Far"); 
+        lcd.print("Still Far...    "); 
         delay(1000); 
 
         lcd.setCursor(0,1);  
@@ -69,7 +70,7 @@ void loop()
     while(distance >= 40 && distance < 50)
     {
         lcd.setCursor(0,0); //Defining positon to write from first row,first column .
-        lcd.print("Getting Near"); 
+        lcd.print("Getting Near... "); 
         delay(1000); 
 
         lcd.setCursor(0,1);  
@@ -92,7 +93,7 @@ void loop()
     while(distance >= 30 && distance < 40)
     {
         lcd.setCursor(0,0); //Defining positon to write from first row,first column .
-        lcd.print("Nearer..."); 
+        lcd.print("Nearer...       "); 
         delay(1000); 
 
         lcd.setCursor(0,1);  
@@ -115,7 +116,7 @@ void loop()
     while(distance >= 20 && distance < 30)
     {
         lcd.setCursor(0,0); //Defining positon to write from first row,first column .
-        lcd.print("Almost..."); 
+        lcd.print("Almost...       "); 
         delay(1000); 
 
         lcd.setCursor(0,1);  
@@ -138,7 +139,7 @@ void loop()
     while(distance >= 10 && distance < 20)
     {
         lcd.setCursor(0,0); //Defining positon to write from first row,first column .
-        lcd.print("Spot On"); 
+        lcd.print("Spot On...      "); 
         delay(1000); 
 
         lcd.setCursor(0,1);  
